@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T13:09:52.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="zpbmneQMY1oahZxkT7eM" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T13:15:52.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="_tGhIyJ4ss9i15EPziuV" version="18.1.2" type="github">
   <diagram id="ujpf-ucKjrVQCLT8i0TZ" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="0" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -68,6 +68,57 @@
         </mxCell>
         <mxCell id="kSc-TAdhgzjO955EKVPc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VfaeStm8Ajg_6-_0I77s-2" target="VfaeStm8Ajg_6-_0I77s-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-6" value="«interface»&lt;br&gt;&lt;b&gt;RejectedExecutionHandler&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="665" width="233" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-7" value="DiscardOldestPolicy" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1358" y="798" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-11" value="丢弃最早策略" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1379" y="848" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-12" value="DiscardOldestPolicy" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1546" y="798" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-13" value="直接丢弃策略" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1567" y="848" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-14" value="DiscardOldestPolicy" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1727" y="798" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-15" value="中止策略" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1748" y="848" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-16" value="DiscardOldestPolicy" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1906" y="798" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-17" value="返还给调用者策略" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1927" y="848" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-18" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kSc-TAdhgzjO955EKVPc-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1424" y="747" as="sourcePoint" />
+            <mxPoint x="1632" y="716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-21" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kSc-TAdhgzjO955EKVPc-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1447" y="807" as="sourcePoint" />
+            <mxPoint x="1665" y="716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-22" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.689;exitY=0.016;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kSc-TAdhgzjO955EKVPc-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1456" y="816" as="sourcePoint" />
+            <mxPoint x="1749" y="716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kSc-TAdhgzjO955EKVPc-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kSc-TAdhgzjO955EKVPc-16" target="kSc-TAdhgzjO955EKVPc-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1465" y="825" as="sourcePoint" />
+            <mxPoint x="1686.7175925925926" y="742" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
