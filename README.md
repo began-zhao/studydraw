@@ -4,12 +4,29 @@
 
 ![ ](https://img.shields.io/badge/WeChat-%E7%A8%8B%E5%BA%8F%E7%8C%B4%E5%92%96%E9%A3%9E-blue) ![ ](https://img.shields.io/badge/csdn-CSDN-orange) ![ ](https://img.shields.io/badge/cnblogs-%E5%8D%9A%E5%AE%A2%E5%9B%AD-9cf)![ ](https://img.shields.io/badge/oschina-%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD-brightgreen)
 # 目录
+## 热点知识，面试常备
+### JUC
 
-## JUC
+### AQS
 
-## AQS
+### RabbitMQ
 
-## JVM
+### Zookeeper
+
+### ElasticSearch
+
+### 分布式事务
+
+## 夯实基础，进阶必备
+### Spring
+
+### Mybatis
+
+### Redis
+
+### MySQL
+
+### JVM
 
 ## 设计模式
 
