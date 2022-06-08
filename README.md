@@ -1,6 +1,7 @@
 # 咖飞的学习笔记
 
 自己会从下图中的知识点分享一些文章，很多都是学习过程中的一些笔记，可能理解的不是太全面。这两天创建了一个 **微信公众号【程序猴咖飞】**，未来将会在公众号上持续性的输出很多原创小知识以及学习资源，欢迎各位关注，并针对文章中的不足之处给出公众号留言意见。
+                                        ![](http://1.12.65.107/upload/2022/06/sharpicons_Eagle-thumbnail.png)
 
 ![ ](https://img.shields.io/badge/WeChat-%E7%A8%8B%E5%BA%8F%E7%8C%B4%E5%92%96%E9%A3%9E-blue) ![ ](https://img.shields.io/badge/csdn-CSDN-orange) ![ ](https://img.shields.io/badge/cnblogs-%E5%8D%9A%E5%AE%A2%E5%9B%AD-9cf)![ ](https://img.shields.io/badge/oschina-%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD-brightgreen)
 # 目录
