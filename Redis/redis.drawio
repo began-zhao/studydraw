@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-12T13:08:35.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="WEgL3AUqi7gpdrc2JZto" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-12T13:44:00.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="x8XpEx_LZmWTbM25gSIX" version="18.2.1" type="github">
   <diagram id="grCGv4p8HMgYhj-p3sTz" name="第 1 页">
     <mxGraphModel dx="1038" dy="556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -451,6 +451,48 @@
         </mxCell>
         <mxCell id="YoqoyMoTRo79KlL0MlWP-26" value="AOF重写缓冲区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="392" y="1619" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-27" value="Redis4.0之前" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="1255" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-28" value="开启AOF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="898" y="1327" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-29" value="同时开启AOF和RDB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="898" y="1412" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YoqoyMoTRo79KlL0MlWP-30" target="YoqoyMoTRo79KlL0MlWP-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-30" value="开启AOF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1511" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-31" value="appendonly.aof" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="1366" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-32" value="dump.rdb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1113" y="1511" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="YoqoyMoTRo79KlL0MlWP-28" target="YoqoyMoTRo79KlL0MlWP-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1031" y="1344" as="sourcePoint" />
+            <mxPoint x="1081" y="1294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YoqoyMoTRo79KlL0MlWP-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1028" y="1367" as="sourcePoint" />
+            <mxPoint x="1110" y="1395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-36" value="加载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1043" y="1336" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-38" value="加载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1511" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-39" value="只加载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1041" y="1423" width="45" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
