@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-06-12T13:44:00.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="x8XpEx_LZmWTbM25gSIX" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-12T13:56:32.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="xroQ9Sqjr6OPBurauJNG" version="18.2.1" type="github">
   <diagram id="grCGv4p8HMgYhj-p3sTz" name="第 1 页">
     <mxGraphModel dx="1038" dy="556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-41" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1476" y="1332" width="250" height="202" as="geometry" />
+        </mxCell>
         <mxCell id="e77hAaYao5_kNf_C5-a_-31" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="2019" y="839" width="374" height="233" as="geometry" />
         </mxCell>
@@ -493,6 +496,21 @@
         </mxCell>
         <mxCell id="YoqoyMoTRo79KlL0MlWP-39" value="只加载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1041" y="1423" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-40" value="Redis4.0之后，混合持久化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1547" y="1251" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1537" y="1444" width="126" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-44" value="RDB格式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1537" y="1377" width="126" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-45" value="appendonly.aof" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1482" y="1336" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YoqoyMoTRo79KlL0MlWP-47" value="AOF格式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1554" y="1462.5" width="94" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
