@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-    <a><img src="https://img.shields.io/badge/WeChat-%E7%A8%8B%E5%BA%8F%E7%8C%B4%E5%92%96%E9%A3%9E-blue"></a>
-    <a><img src="https://img.shields.io/badge/csdn-CSDN-orange"></a>
-    <a><img src="https://img.shields.io/badge/cnblogs-%E5%8D%9A%E5%AE%A2%E5%9B%AD-9cf"></a>
-    <a><img src="https://img.shields.io/badge/oschina-%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD-brightgreen"></a>
+    <a href="https://github.com/began-zhao/studydraw#%E7%9B%AE%E5%BD%95"><img src="https://img.shields.io/badge/WeChat-%E7%A8%8B%E5%BA%8F%E7%8C%B4%E5%92%96%E9%A3%9E-blue"></a>
+    <a href="https://github.com/began-zhao/studydraw#%E7%9B%AE%E5%BD%95"><img src="https://img.shields.io/badge/csdn-CSDN-orange"></a>
+    <a href="https://github.com/began-zhao/studydraw#%E7%9B%AE%E5%BD%95"><img src="https://img.shields.io/badge/cnblogs-%E5%8D%9A%E5%AE%A2%E5%9B%AD-9cf"></a>
+    <a href="https://github.com/began-zhao/studydraw#%E7%9B%AE%E5%BD%95"><img src="https://img.shields.io/badge/oschina-%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD-brightgreen"></a>
 </p>
 
 # 目录
@@ -33,6 +33,11 @@
 ### Mybatis
 
 ### Redis
+- [Redis 基础知识](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483794&idx=1&sn=4f940a5f194b82ab69aecb2c110fdef2&chksm=cf3c5141f84bd8573646e04b2c6aadbaaa3a5a33863806350a536779604bb6739e795556b185#rd)
+- [Redis 最佳实践指南](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483829&idx=1&sn=b8a529500957a1a135068f87621d43ab&chksm=cf3c5166f84bd87025d0db6cac80da3564f621b6472bf44e21452d30f17012197d7e71d0321a#rd)
+- [Redis 持久化](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483830&idx=1&sn=349c6ca87652a1a16e8692d1277b672d&chksm=cf3c5165f84bd873301b301b9802b5972794f753bb3a1223f55dbf1ec3a060505a53a6841687#rd)
+- [Redis 数据结构-一文拿捏](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483933&idx=2&sn=ae167483e020fa298318cb5e3a60b55c&chksm=cf3c52cef84bdbd81b55b0845e8e90fa9f1ef861793079b042f6bb12ffa6f30db89e4a5382bf#rd)
+- [Redis 高可用实践](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483937&idx=1&sn=f57ffe7267fdff966c96c6db3ba15ee7&chksm=cf3c52f2f84bdbe474c80e409cf0419339ee7ffb174042e2ac45a90ff61797e34b0c5bdc1761#rd)
 
 ### MySQL
 
@@ -46,6 +51,7 @@
     - 建造者模式
     - 模板模式
 - 行为型
-    - 策略模式
-    - 责任链模式
+    - [策略模式](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483770&idx=1&sn=19477cdd5d8ca0286015db4896534a38&chksm=cf3c51a9f84bd8bfbe5bbb789b7ecb7c8c47580b3aa2a17b8002da1a7d3ffd4c34a5ebe859c2#rd)
+    - [责任链模式](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483781&idx=1&sn=c774c32c9c47fd245de1f9bdf0a0bddb&chksm=cf3c5156f84bd84019534353cbc57a9790ec1fb2d5f905566a52d6a5e97a57df3dca20dcfdfa#rd)
 - 结构型
+    - 适配器模式
