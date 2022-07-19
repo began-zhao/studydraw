@@ -15,19 +15,27 @@
 
 # 目录
 ## 热点知识，面试常备
-### JUC
+- [Java 基础部分](https://begun.top/interview/Java-Basics-FAQ.html)
+- [Java 集合部分](https://begun.top/interview/Collections-FAQ.html)
+- [Java 多线程部分](https://begun.top/interview/JUC-FAQ.html)
+- [JVM 部分](https://begun.top/interview/JVM-FAQ.html)
+- [MYSQL 部分](https://begun.top/interview/MySQL-FAQ.html)
+- [Redis 部分](https://begun.top/interview/Redis-FAQ.html)
+- [计算机网络部分](https://begun.top/interview/Network-FAQ.html)
+- [Kafka 部分](https://begun.top/interview/Kafka-FAQ.html)
+- [Zookeeper 部分](https://begun.top/interview/ZooKeeper-FAQ.html)
+- [RPC 部分](https://begun.top/interview/RPC-FAQ.html)
+- [Mybatis 部分](https://begun.top/interview/MyBatis-FAQ.html)
+- [Spring 部分](https://begun.top/interview/Spring-FAQ.html)
+- [SpringBoot 部分](https://begun.top/interview/SpringBoot-FAQ.html)
+- [设计模式部分](https://begun.top/interview/Design-Pattern-FAQ.html)
+- [Tomcat 部分](https://begun.top/interview/Tomcat-FAQ.html)
+- [ElasticSearch 部分](https://begun.top/interview/Elasticsearch-FAQ.html)
 
-### AQS
-
-### RabbitMQ
-
-### Zookeeper
-
-### ElasticSearch
-
-### 分布式事务
 
 ## 夯实基础，进阶必备
+### 分布式事务
+
 ### Spring
 
 ### Mybatis
