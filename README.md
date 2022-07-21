@@ -48,6 +48,8 @@
 - [Redis 高可用实践](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483937&idx=1&sn=f57ffe7267fdff966c96c6db3ba15ee7&chksm=cf3c52f2f84bdbe474c80e409cf0419339ee7ffb174042e2ac45a90ff61797e34b0c5bdc1761#rd)
 
 ### MySQL
+- [MySQL 三万字知识点精华总结](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483961&idx=1&sn=333711d5a8399e8cf3ef6e6f922e4682&chksm=cf3c52eaf84bdbfc6090617f47a8f5766701494535fc2f3ed2b11b41a4feb852c2e8432a278c#rd)
+- [盘点MySQL慢查询的12个原因](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483961&idx=2&sn=7bd5340f06bf19a5781f804ad510e420&chksm=cf3c52eaf84bdbfcd4550645112e9769b0ba49dfa320a8377ece8cfa7531ca69d959545b0404#rd)
 
 ### JVM
 
