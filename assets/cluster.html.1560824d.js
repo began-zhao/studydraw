@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c,b as o}from"./app.34c4c188.js";const r={},s=o("p",null,"\u76F8\u540C\u7684\u670D\u52A1\u90E8\u7F72\u591A\u4EFD\uFF0C\u907F\u514D\u5355\u70B9\u6545\u969C\u3002",-1),_=[s];function l(n,a){return t(),c("div",null,_)}var m=e(r,[["render",l],["__file","cluster.html.vue"]]);export{m as default};
