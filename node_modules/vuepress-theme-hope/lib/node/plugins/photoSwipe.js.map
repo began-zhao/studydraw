@@ -1,0 +1,1 @@
+{"version":3,"file":"photoSwipe.js","sourceRoot":"","sources":["../../../src/node/plugins/photoSwipe.ts"],"names":[],"mappings":";;;AAAA,6EAA+D;AAKxD,MAAM,mBAAmB,GAAG,CACjC,OAAmC,EACpB,EAAE;IACjB,IAAI,OAAO,KAAK,KAAK;QAAE,OAAO,IAAI,CAAC;IAEnC,OAAO,IAAA,8CAAgB,EAAC;QACtB,QAAQ,EAAE,mCAAmC;QAC7C,GAAG,OAAO;KACX,CAAC,CAAC;AACL,CAAC,CAAC;AATW,QAAA,mBAAmB,uBAS9B"}

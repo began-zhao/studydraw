@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-150e920e\",\"path\":\"/code/java/common/jvm/memory-area.html\",\"title\":\"Java 内存区域详解\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Java 内存区域详解\",\"date\":\"2020-09-24T00:00:00.000Z\",\"category\":[\"Java\"],\"tag\":[\"JVM\"],\"summary\":\"\\\" 如果没有特殊说明，都是针对的是 HotSpot 虚拟机。\\\"\\r\\\"\\\"\\r\\\" 本文基于《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》进行总结补充。\\\"\\r\\\"\\\"\\r\\\" 常见面试题 ：\\\"\\r\\\"\\\"\\r\\\" - 介绍下 Java 内存区域（运行时数据区）\\\"\\r\\\" - Java 对象的创建过程（五步，建议能默写出来并且要知道每一步虚拟机做了什么）\\\"\\r\\\" - 对象的访问定位的\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-v2-demo.mrhope.site/code/java/common/jvm/memory-area.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"咖飞的博客\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Java 内存区域详解\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://vuepress-theme-hope-v2-demo.mrhope.site/\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"meta\",{\"name\":\"twitter:image:alt\",\"content\":\"Java 内存区域详解\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"JVM\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2020-09-24T00:00:00.000Z\"}]]},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"前言\",\"slug\":\"前言\",\"children\":[]},{\"level\":2,\"title\":\"运行时数据区域\",\"slug\":\"运行时数据区域\",\"children\":[{\"level\":3,\"title\":\"程序计数器\",\"slug\":\"程序计数器\",\"children\":[]},{\"level\":3,\"title\":\"Java 虚拟机栈\",\"slug\":\"java-虚拟机栈\",\"children\":[]},{\"level\":3,\"title\":\"本地方法栈\",\"slug\":\"本地方法栈\",\"children\":[]},{\"level\":3,\"title\":\"堆\",\"slug\":\"堆\",\"children\":[]},{\"level\":3,\"title\":\"方法区\",\"slug\":\"方法区\",\"children\":[]},{\"level\":3,\"title\":\"运行时常量池\",\"slug\":\"运行时常量池\",\"children\":[]},{\"level\":3,\"title\":\"字符串常量池\",\"slug\":\"字符串常量池\",\"children\":[]},{\"level\":3,\"title\":\"直接内存\",\"slug\":\"直接内存\",\"children\":[]}]},{\"level\":2,\"title\":\"HotSpot 虚拟机对象探秘\",\"slug\":\"hotspot-虚拟机对象探秘\",\"children\":[{\"level\":3,\"title\":\"对象的创建\",\"slug\":\"对象的创建\",\"children\":[]},{\"level\":3,\"title\":\"对象的内存布局\",\"slug\":\"对象的内存布局\",\"children\":[]},{\"level\":3,\"title\":\"对象的访问定位\",\"slug\":\"对象的访问定位\",\"children\":[]}]},{\"level\":2,\"title\":\"参考\",\"slug\":\"参考\",\"children\":[]}],\"readingTime\":{\"minutes\":23.18,\"words\":6954},\"filePathRelative\":\"code/java/common/jvm/memory-area.md\",\"localizedDate\":\"2020年9月24日\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-7137fd96\",\"path\":\"/code/java/high-quality-technical-articles/personal-experience/two-years-of-back-end-develop--experience-in-didi&toutiao.html\",\"title\":\"我在滴滴和头条的两年后端研发工作经验分享\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"我在滴滴和头条的两年后端研发工作经验分享\",\"category\":[\"技术文章精选集\"],\"date\":\"2021-04-29T00:00:00.000Z\",\"tag\":[\"个人经历\"],\"summary\":\"\\\" 推荐语 ：很实用的工作经验分享，看完之后十分受用！\\\"\\r\\\"\\\"\\r\\\" 内容概览 ：\\\"\\r\\\"\\\"\\r\\\" - 要学会深入思考，总结沉淀，这是我觉得最重要也是最有意义的一件事。\\\"\\r\\\" - 积极学习，保持技术热情。如果我们积极学习，保持技术能力、知识储备与工作年限成正比，这到了 35 岁哪还有什么焦虑呢，这样的大牛我觉得应该也是各大公司抢着要吧？\\\"\\r\\\" - 在能为公司办成事\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-v2-demo.mrhope.site/code/java/high-quality-technical-articles/personal-experience/two-years-of-back-end-develop--experience-in-didi&toutiao.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"咖飞的博客\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"我在滴滴和头条的两年后端研发工作经验分享\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"个人经历\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2021-04-29T00:00:00.000Z\"}]]},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"学会深入思考，总结沉淀\",\"slug\":\"学会深入思考-总结沉淀\",\"children\":[]},{\"level\":2,\"title\":\"积极学习，保持技术热情\",\"slug\":\"积极学习-保持技术热情\",\"children\":[]},{\"level\":2,\"title\":\"主动承担，及时交流反馈\",\"slug\":\"主动承担-及时交流反馈\",\"children\":[]},{\"level\":2,\"title\":\"第一件事建立信任\",\"slug\":\"第一件事建立信任\",\"children\":[]},{\"level\":2,\"title\":\"超出预期\",\"slug\":\"超出预期\",\"children\":[]},{\"level\":2,\"title\":\"体系化思考，系统化建设\",\"slug\":\"体系化思考-系统化建设\",\"children\":[]},{\"level\":2,\"title\":\"提升自己的软素质能力\",\"slug\":\"提升自己的软素质能力\",\"children\":[]},{\"level\":2,\"title\":\"拍马屁是真的香\",\"slug\":\"拍马屁是真的香\",\"children\":[]},{\"level\":2,\"title\":\"永不缺席的撕逼甩锅实战\",\"slug\":\"永不缺席的撕逼甩锅实战\",\"children\":[]},{\"level\":2,\"title\":\"不要被画饼蒙蔽了双眼\",\"slug\":\"不要被画饼蒙蔽了双眼\",\"children\":[]},{\"level\":2,\"title\":\"学会包装\",\"slug\":\"学会包装\",\"children\":[]},{\"level\":2,\"title\":\"选择和努力哪个更重要？\",\"slug\":\"选择和努力哪个更重要\",\"children\":[]},{\"level\":2,\"title\":\"后记\",\"slug\":\"后记\",\"children\":[]}],\"readingTime\":{\"minutes\":21.3,\"words\":6390},\"filePathRelative\":\"code/java/high-quality-technical-articles/personal-experience/two-years-of-back-end-develop--experience-in-didi&toutiao.md\",\"localizedDate\":\"2021年4月29日\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-39d7b652\",\"path\":\"/code/java/common/new-features/java14-15.html\",\"title\":\"Java 14 ~ 15 新特性概览\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Java 14 ~ 15 新特性概览\",\"date\":\"2021-03-24T00:00:00.000Z\",\"category\":[\"Java\"],\"tag\":[\"Java新特性\"],\"summary\":\"Java14 空指针异常精准提示 通过 JVM 参数中添加-XX:+ShowCodeDetailsInExceptionMessages，可以在空指针异常中获取更为详细的调用信息，更快的定位和解决问题。 Java 14 之前： Java 14 之后： switch 的增强(转正) Java12 引入的 switch（预览特性）在 Java14 变为正式版本，\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-v2-demo.mrhope.site/code/java/common/new-features/java14-15.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"咖飞的博客\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Java 14 ~ 15 新特性概览\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Java新特性\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2021-03-24T00:00:00.000Z\"}]]},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"Java14\",\"slug\":\"java14\",\"children\":[{\"level\":3,\"title\":\"空指针异常精准提示\",\"slug\":\"空指针异常精准提示\",\"children\":[]},{\"level\":3,\"title\":\"switch 的增强(转正)\",\"slug\":\"switch-的增强-转正\",\"children\":[]},{\"level\":3,\"title\":\"预览新特性\",\"slug\":\"预览新特性\",\"children\":[]},{\"level\":3,\"title\":\"Java14 其他特性\",\"slug\":\"java14-其他特性\",\"children\":[]}]},{\"level\":2,\"title\":\"Java15\",\"slug\":\"java15\",\"children\":[{\"level\":3,\"title\":\"CharSequence\",\"slug\":\"charsequence\",\"children\":[]},{\"level\":3,\"title\":\"TreeMap\",\"slug\":\"treemap\",\"children\":[]},{\"level\":3,\"title\":\"ZGC(转正)\",\"slug\":\"zgc-转正\",\"children\":[]},{\"level\":3,\"title\":\"EdDSA(数字签名算法)\",\"slug\":\"eddsa-数字签名算法\",\"children\":[]},{\"level\":3,\"title\":\"文本块(转正)\",\"slug\":\"文本块-转正\",\"children\":[]},{\"level\":3,\"title\":\"隐藏类(Hidden Classes)\",\"slug\":\"隐藏类-hidden-classes\",\"children\":[]},{\"level\":3,\"title\":\"预览新特性\",\"slug\":\"预览新特性-1\",\"children\":[]},{\"level\":3,\"title\":\"Java15 其他新特性\",\"slug\":\"java15-其他新特性\",\"children\":[]}]},{\"level\":2,\"title\":\"总结\",\"slug\":\"总结\",\"children\":[{\"level\":3,\"title\":\"关于预览特性\",\"slug\":\"关于预览特性\",\"children\":[]},{\"level\":3,\"title\":\"JVM 虚拟机优化\",\"slug\":\"jvm-虚拟机优化\",\"children\":[]}]},{\"level\":2,\"title\":\"参考\",\"slug\":\"参考\",\"children\":[]}],\"readingTime\":{\"minutes\":6.77,\"words\":2030},\"filePathRelative\":\"code/java/common/new-features/java14-15.md\",\"localizedDate\":\"2021年3月24日\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

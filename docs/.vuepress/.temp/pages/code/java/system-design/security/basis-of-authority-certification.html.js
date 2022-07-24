@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-5add8210\",\"path\":\"/code/java/system-design/security/basis-of-authority-certification.html\",\"title\":\"认证授权基础\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"认证授权基础\",\"category\":[\"系统设计\"],\"date\":\"2021-05-21T00:00:00.000Z\",\"tag\":[\"安全\"],\"summary\":\"认证 (Authentication) 和授权 (Authorization)的区别是什么？ 这是一个绝大多数人都会混淆的问题。首先先从读音上来认识这两个名词，很多人都会把它俩的读音搞混，所以我建议你先先去查一查这两个单词到底该怎么读，他们的具体含义是什么。 说简单点就是：\\r认证 (Authentication)： 你是谁。; \\r授权 (Authorizat\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-v2-demo.mrhope.site/code/java/system-design/security/basis-of-authority-certification.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"咖飞的博客\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"认证授权基础\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"安全\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2021-05-21T00:00:00.000Z\"}]]},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"认证 (Authentication) 和授权 (Authorization)的区别是什么？\",\"slug\":\"认证-authentication-和授权-authorization-的区别是什么\",\"children\":[]},{\"level\":2,\"title\":\"RBAC 模型了解吗？\",\"slug\":\"rbac-模型了解吗\",\"children\":[]},{\"level\":2,\"title\":\"什么是 Cookie ? Cookie 的作用是什么?\",\"slug\":\"什么是-cookie-cookie-的作用是什么\",\"children\":[]},{\"level\":2,\"title\":\"如何在项目中使用 Cookie 呢？\",\"slug\":\"如何在项目中使用-cookie-呢\",\"children\":[]},{\"level\":2,\"title\":\"Cookie 和 Session 有什么区别？\",\"slug\":\"cookie-和-session-有什么区别\",\"children\":[]},{\"level\":2,\"title\":\"如何使用 Session-Cookie 方案进行身份验证？\",\"slug\":\"如何使用-session-cookie-方案进行身份验证\",\"children\":[]},{\"level\":2,\"title\":\"多服务器节点下 Session-Cookie 方案如何做？\",\"slug\":\"多服务器节点下-session-cookie-方案如何做\",\"children\":[]},{\"level\":2,\"title\":\"如果没有 Cookie 的话 Session 还能用吗？\",\"slug\":\"如果没有-cookie-的话-session-还能用吗\",\"children\":[]},{\"level\":2,\"title\":\"为什么 Cookie 无法防止 CSRF 攻击，而 Token 可以？\",\"slug\":\"为什么-cookie-无法防止-csrf-攻击-而-token-可以\",\"children\":[]},{\"level\":2,\"title\":\"什么是 Token?什么是 JWT?\",\"slug\":\"什么是-token-什么是-jwt\",\"children\":[]},{\"level\":2,\"title\":\"什么是 SSO?\",\"slug\":\"什么是-sso\",\"children\":[]},{\"level\":2,\"title\":\"什么是 OAuth 2.0？\",\"slug\":\"什么是-oauth-2-0\",\"children\":[]},{\"level\":2,\"title\":\"参考\",\"slug\":\"参考\",\"children\":[]}],\"readingTime\":{\"minutes\":13.61,\"words\":4084},\"filePathRelative\":\"code/java/system-design/security/basis-of-authority-certification.md\",\"localizedDate\":\"2021年5月21日\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
