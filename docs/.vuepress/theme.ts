@@ -8,7 +8,7 @@ export default hopeTheme({
 
   author: {
     name: "咖飞",
-    url: "hhttps://begun.top/",
+    url: "https://begun.top/",
   },
 
   iconAssets: "iconfont",
@@ -34,19 +34,19 @@ export default hopeTheme({
 
   blog: {
     description: "公众号【程序猴咖飞】，欢迎关注学习",
-    intro: "/intro.html",
+    intro: "/about/author/",
     medias: {
       // Baidu: "https://example.com",
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-       Email: "https://example.com",
+       Email: "z-begun@outlook.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
       // Gitee: "https://example.com",
-       GitHub: "https://example.com",
+       GitHub: "https://github.com/began-zhao/studydraw",
       // Gitlab: "https://example.com",
       // Gmail: "https://example.com",
       // Instagram: "https://example.com",
@@ -54,17 +54,17 @@ export default hopeTheme({
       // Linkedin: "https://example.com",
       // Pinterest: "https://example.com",
       // Pocket: "https://example.com",
-       QQ: "https://example.com",
+       QQ: "8345615898",
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
       // Rss: "https://example.com",
       // Steam: "https://example.com",
       // Twitter: "https://example.com",
-       Wechat: "https://example.com",
+       Wechat: "z-begun",
       // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
-       Zhihu: "https://example.com",
+       Zhihu: "https://www.zhihu.com/people/li-bai-9-83",
     },
   },
 
