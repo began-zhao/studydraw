@@ -38,7 +38,8 @@ projects:
     desc: 简单介绍一下
     link: /about/author
 
-footer: 自定义你的页脚文字
+# footer: 自定义你的页脚文字
+footer:  
 ---
 
 <!-- 这是一个博客主页的案例。
