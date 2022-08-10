@@ -45,6 +45,7 @@
 - [Redis 最佳实践指南](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483829&idx=1&sn=b8a529500957a1a135068f87621d43ab&chksm=cf3c5166f84bd87025d0db6cac80da3564f621b6472bf44e21452d30f17012197d7e71d0321a#rd)
 - [Redis 持久化](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483830&idx=1&sn=349c6ca87652a1a16e8692d1277b672d&chksm=cf3c5165f84bd873301b301b9802b5972794f753bb3a1223f55dbf1ec3a060505a53a6841687#rd)
 - [Redis 数据结构-一文拿捏](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483933&idx=2&sn=ae167483e020fa298318cb5e3a60b55c&chksm=cf3c52cef84bdbd81b55b0845e8e90fa9f1ef861793079b042f6bb12ffa6f30db89e4a5382bf#rd)
+- [Redis 高可用介绍](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483933&idx=1&sn=f44c7cb0809ed5eacf52b74c7c4d85bd&chksm=cf3c52cef84bdbd84c6dfa65b23b7e610db279a3ac2385002cec24be3b4a2096c846b21e1592&mpshare=1&scene=23&srcid=0810ZQIJiUriqFY2hzwurRkW&sharer_sharetime=1660125059338&sharer_shareid=b3f4331111741268da7697c5430beb6d#rd)
 - [Redis 高可用实践](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483937&idx=1&sn=f57ffe7267fdff966c96c6db3ba15ee7&chksm=cf3c52f2f84bdbe474c80e409cf0419339ee7ffb174042e2ac45a90ff61797e34b0c5bdc1761#rd)
 
 ### MySQL
