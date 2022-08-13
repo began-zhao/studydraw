@@ -97,6 +97,7 @@ export const code = arraySidebar([
           "classloader",
           "jvm-parameters-intro",
           "jvm-intro",
+          "JVMOptimize",
           "jdk-monitoring-and-troubleshooting-tools",
         ],
       },
