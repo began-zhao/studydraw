@@ -3,7 +3,7 @@
 <p>并且，这两个理论也可以说是小伙伴们学习分布式相关内容的基础了！</p>
 <p>因此，小伙伴们非常非常有必要将这理论搞懂，并且能够用自己的理解给别人讲出来。</p>
 <p>这篇文章我会站在自己的角度对这两个概念进行解读！</p>
-<p><em>个人能力有限。如果文章有任何需要改善和完善的地方，欢迎在评论区指出，共同进步！——爱你们的Guide哥</em></p>
+<p><em>个人能力有限。如果文章有任何需要改善和完善的地方，欢迎在评论区指出，共同进步！——咖飞</em></p>
 <h2 id="cap理论" tabindex="-1"><a class="header-anchor" href="#cap理论" aria-hidden="true">#</a> CAP理论</h2>
 <p><a href="https://zh.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86" target="_blank" rel="noopener noreferrer">CAP 理论/定理<ExternalLinkIcon/></a>起源于 2000年，由加州大学伯克利分校的Eric Brewer教授在分布式计算原理研讨会（PODC）上提出，因此 CAP定理又被称作 <strong>布鲁尔定理（Brewer’s theorem）</strong></p>
 <p>2年后，麻省理工学院的Seth Gilbert和Nancy Lynch 发表了布鲁尔猜想的证明，CAP理论正式成为分布式领域的定理。</p>

@@ -1,6 +1,6 @@
 ---
 title: JVM 调优及常用命令记录
-date: 2022-7-27
+date: 2022-07-27
 category: JVM
 tag:
   - JVM
@@ -19,7 +19,7 @@ tag:
 
 性能问题调优层级一般来说如下图：
 
-![java性能优化](pictures/JVM%E8%B0%83%E4%BC%98%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/Untitled.png)
+![java性能优化](./pictures/JVM%E8%B0%83%E4%BC%98%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/Untitled.png)
 
 # **2、JVM开始调优的时机**
 
@@ -64,7 +64,7 @@ tag:
 
 上诉操作步骤中，某些步骤是需要多次不断迭代完成的。一般是从满足程序的内存使用需求开始的，之后是时间延迟的要求，最后才是吞吐量的要求，要基于这个步骤来不断优化，每一个步骤都是进行下一步的基础，不可逆行。
 
-![jvm调优](pictures/JVM%E8%B0%83%E4%BC%98%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/Untitled%201.png)
+![jvm调优](./pictures/JVM%E8%B0%83%E4%BC%98%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/Untitled%201.png)
 
 # **5、JVM参数**
 
@@ -170,7 +170,7 @@ tag:
 
 JDK自带了很多性能监控工具，我们可以用这些工具来监测系统和排查内存性能问题。
 
-![Untitled](pictures/JVM%E8%B0%83%E4%BC%98%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/Untitled%202.png)
+![Untitled](./pictures/JVM%E8%B0%83%E4%BC%98%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/Untitled%202.png)
 
 ## **6.2、Linux 命令行工具**
 
