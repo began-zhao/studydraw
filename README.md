@@ -3,7 +3,7 @@
 <br/>自己有创建了一个 **微信公众号【程序猴咖飞】**，未来将会在公众号上持续性的输出很多原创小知识以及学习资源，欢迎各位关注。
 自己会从常见知识点分享一些文章，很多都是学习过程中的一些笔记，可能理解的不是太全面。文章中的不足之处可以去公众号给出留言意见。
 <p align="center">
-  <a href="http://www.baidu.com" target="_blank"><img src="http://1.12.65.107/upload/2022/07/animal_and_nature.png"></a>
+  <a href="https://github.com/began-zhao/studydraw#%E7%9B%AE%E5%BD%95" target="_blank"><img src="http://1.12.65.107/upload/2022/07/animal_and_nature.png"></a>
 </p>
 
 <p align="center">
