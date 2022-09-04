@@ -7,8 +7,6 @@ tag:
 ---
 
 
-> 感谢 [changfubai](https://github.com/changfubai) 对本文的改进做出的贡献！
-
 ## HashMap 简介
 
 HashMap 主要用来存放键值对，它基于哈希表的 Map 接口实现，是常用的 Java 集合之一，是非线程安全的。
