@@ -1815,20 +1815,3 @@ MySQL 支持的数据类型非常多，选择正确的数据类型对于获取�
 3.  删除完成后重新创建索引(此时数据较少了)创建索引也非常快，约十分钟左右。
     
 4.  与之前的直接删除绝对是要快速很多，更别说万一删除中断,一切删除会回滚。那更是坑了。
-    
-
--
-
-## 参考与感谢：
-
-https://zhuanlan.zhihu.com/p/29150809 https://juejin.im/post/5e3eb616f265da570d734dcb#heading-105 https://blog.csdn.net/yin767833376/article/details/81511377
-
- 
-
- 点个**在看** 
-
-在看是一种支持
-
-↘↘
-
-[查看原网页: mp.weixin.qq.com](https://mp.weixin.qq.com/s/df_Yyur2LBVZqmCVWvSj7Q)
