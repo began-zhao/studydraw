@@ -1,0 +1,1 @@
+import{_ as r}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c,b as e,d as s}from"./app.743e15d8.js";const n={},o=e("p",null,[e("strong",null,"\u6CDB\u578B&\u901A\u914D\u7B26"),s(" \u76F8\u5173\u7684\u9762\u8BD5\u9898")],-1),a=[o];function _(d,l){return t(),c("div",null,a)}var m=r(n,[["render",_],["__file","generics-and-wildcards.html.vue"]]);export{m as default};
