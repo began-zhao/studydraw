@@ -119,6 +119,23 @@ export const code = arraySidebar([
     ],
   },
   {
+    text:"大数据",
+    icon: "java",
+    prefix: "bigData/common",
+    collapsable: true,
+    children:[
+      {
+        text: "hadoop",
+        prefix: "hadoop/",
+        icon: "storage",
+        collapsable: true,
+        children: [
+          "hadoop",
+        ],
+      },
+    ]
+  },
+  {
     text: "计算机基础",
     icon: "computer",
     prefix: "java/cs-basics/",
