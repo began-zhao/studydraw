@@ -70,7 +70,7 @@ begin  ALL=(ALL)  NOPASSWD:ALL        <----此行
 
 ### 克隆虚拟机
 
-![Untitled](./images/Untitled%201.png)
+![Untitled](./images/Untitled1.png)
 
 - 选择完整克隆
 - 配置静态IP地址`cd /etc/sysconfig/network-scripts`
@@ -129,45 +129,45 @@ nameserver 114.114.114.114
 
 1. 进入指定目录，没有新建一个 `cd /opt/software`
 
-![Untitled](./images/Untitled%202.png)
+![Untitled](./images/Untitled2.png)
 
 1. 解压到指定目录 `tar -zxvf jdk-…..jar -C /opt/module/`
 
-![Untitled](./images/Untitled%203.png)
+![Untitled](./images/Untitled3.png)
 
-![Untitled](./images/Untitled%204.png)
+![Untitled](./images/Untitled4.png)
 
 1. 配置java环境变量
 
 创建文件 `sudo vim my_env.sh` 注意路径
 
-![Untitled](./images/Untitled%205.png)
+![Untitled](./images/Untitled5.png)
 
 添加内容如下，JAVA_HOME为jdk安装包路径：
 
-![Untitled](./images/Untitled%206.png)
+![Untitled](./images/Untitled6.png)
 
 添加完成后刷新配置，完成 `source /etc/profile`
 
-![Untitled](./images/Untitled%207.png)
+![Untitled](./images/Untitled7.png)
 
 ### 安装Hadoop
 
 1. 同样解压到指定目录`tar -zxvf hadoop-3.1.3.tar.gz -C /opt/module`
 
-![Untitled](./images/Untitled%208.png)
+![Untitled](./images/Untitled8.png)
 
 1. 配置环境变量
 
-![Untitled](./images/Untitled%209.png)
+![Untitled](./images/Untitled9.png)
 
 1. 刷新配置，完成`source /etc/profile`
 
 ### 了解目录基本信息
 
-![Untitled](./images/Untitled%2010.png)
+![Untitled](./images/Untitled10.png)
 
-![Untitled](./images/Untitled%2011.png)
+![Untitled](./images/Untitled11.png)
 
 ```html
 
@@ -277,7 +277,7 @@ yarn:资源调度相关命令
     
     c. 期望脚本在任何路径都能使用（脚本放在声明了全局环境变量的路径）
     
-    ![Untitled](./images/Untitled%2012.png)
+    ![Untitled](./images/Untitled12.png)
     
 
 ### **3.3 SSH无密登录配置**
@@ -285,7 +285,7 @@ yarn:资源调度相关命令
 1. 脚本实现
     1. 在 /home/begin/bin 目录下创建xsync文件
     
-    ![Untitled](./images/Untitled%2013.png)
+    ![Untitled](./images/Untitled13.png)
     
     在该文件中编写如下代码
     
@@ -381,25 +381,25 @@ yarn:资源调度相关命令
     2. 无秘钥配置
         - 免密登录原理
         
-        ![Untitled](./images/Untitled%2014.png)
+        ![Untitled](./images/Untitled14.png)
         
         1. 生成 rsa 公钥私钥，注意文件目录，三次回车直接确定就好
         
-        ![Untitled](./images/Untitled%2015.png)
+        ![Untitled](./images/Untitled15.png)
         
-        ![Untitled](./images/Untitled%2016.png)
+        ![Untitled](./images/Untitled16.png)
         
         1. 公钥拷贝至其他服务器，第一次需要密码
         
-        ![Untitled](./images/Untitled%2017.png)
+        ![Untitled](./images/Untitled17.png)
         
         1. 完成后可直接链接
         
-        ![Untitled](./images/Untitled%2018.png)
+        ![Untitled](./images/Untitled18.png)
         
         1. 免密登录文件
         
-        ![Untitled](./images/Untitled%2019.png)
+        ![Untitled](./images/Untitled19.png)
         
 
 ### 3.4 集群配置
@@ -643,7 +643,7 @@ hadoop102
     
     出现如下两个文件表示初始化成功：
     
-    ![Untitled](./images/Untitled%2020.png)
+    ![Untitled](./images/Untitled20.png)
     
 - (2) 启动`HDFS`
     
@@ -674,7 +674,7 @@ hadoop102
     
     完成后可在浏览器打开如下界面`http://hadoop102:9870/`，打不开请检查防火墙和host文件
     
-    ![Untitled](./images/Untitled%2021.png)
+    ![Untitled](./images/Untitled21.png)
     
 - (3) 在配置了`ResourceManger`的节点(`Hadoop103`)启动`YARN`
     
@@ -703,13 +703,13 @@ hadoop102
     
     浏览器中输入：**http://hadoop102:9087** 如下图：
     
-    ![Untitled](./images/Untitled%2022.png)
+    ![Untitled](./images/Untitled22.png)
     
     Web端查看 YARN 的 `ResourceManager`
     
     浏览器中输入：**http://hadoop103:8088** 如下图:
     
-    ![Untitled](./images/Untitled%2023.png)
+    ![Untitled](./images/Untitled23.png)
     
 - (5) 在 `Hadoop102` 上启动 **`历史服务器`**
     
@@ -868,7 +868,7 @@ begin
 begin
 ```
 
-![Untitled](./images/Untitled%2024.png)
+![Untitled](./images/Untitled24.png)
 
 - (3) 拼接
 
@@ -894,11 +894,11 @@ begin
 [begin@hadoop102 hadoop-3.1.3]$ hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.3.jar  wordcount /wcinput /wcoutput
 ```
 
-![Untitled](./images/Untitled%2025.png)
+![Untitled](./images/Untitled25.png)
 
 查看目录下执行结果
 
-![Untitled](./images/Untitled%2026.png)
+![Untitled](./images/Untitled26.png)
 
 ### 3.7 集群启动/停止方式总结
 
