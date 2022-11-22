@@ -130,7 +130,7 @@ export const code = arraySidebar([
         icon: "storage",
         collapsable: true,
         children: [
-          "hadoop",
+          "hadoop-base",
         ],
       },
     ]
