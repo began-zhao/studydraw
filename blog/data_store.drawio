@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T01:44:07.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79" version="21.6.2" etag="bfTfCIgVxfMo66G74z9F" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T01:52:53.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79" etag="MNUw4QaV14T_1huvuMkx" version="21.6.2" type="github">
   <diagram name="第 1 页" id="Camr7XsZ0Y0K7MddpfSk">
-    <mxGraphModel>
+    <mxGraphModel dx="1313" dy="720" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FXYnp829lOooSJC_CmGT-1" value="业务系统数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="160" width="91" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="FXYnp829lOooSJC_CmGT-2" value="日志采集系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="91" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="FXYnp829lOooSJC_CmGT-3" value="爬虫系统等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="160" width="91" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="FXYnp829lOooSJC_CmGT-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=99.04761904761904;endSize=9.685714285714285;width=38.095238095238095;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="205" as="sourcePoint" />
+            <mxPoint x="370" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FXYnp829lOooSJC_CmGT-6" value="数据仓库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FXYnp829lOooSJC_CmGT-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=99.04761904761904;endSize=9.685714285714285;width=38.095238095238095;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="369" y="370" as="sourcePoint" />
+            <mxPoint x="369.02" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FXYnp829lOooSJC_CmGT-8" value="报表系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="119" y="440" width="91" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="FXYnp829lOooSJC_CmGT-9" value="用户画像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="91" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="FXYnp829lOooSJC_CmGT-10" value="推荐系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="440" width="91" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="FXYnp829lOooSJC_CmGT-11" value="机器学习" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="91" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="FXYnp829lOooSJC_CmGT-12" value="风控系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="91" height="37" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
