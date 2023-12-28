@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T08:22:56.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="21.6.5" etag="ARmWxFmu67_nev_w8sLf" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-28T08:33:56.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="wpj9CXbY5uRBYDR7sfPf" version="21.6.5" type="github">
   <diagram name="第 1 页" id="Tl0CjAMw8aQlF9DPNo0h">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500000" pageHeight="500000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExoMNe3t0gfA56t_Lgv5-1" target="ExoMNe3t0gfA56t_Lgv5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.647;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ExoMNe3t0gfA56t_Lgv5-1" target="ExoMNe3t0gfA56t_Lgv5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-1" value="应用服务层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="232" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-5" value="公共层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="403" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExoMNe3t0gfA56t_Lgv5-6" target="ExoMNe3t0gfA56t_Lgv5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.353;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ExoMNe3t0gfA56t_Lgv5-6" target="ExoMNe3t0gfA56t_Lgv5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-6" value="用户接口层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="152" y="147" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ExoMNe3t0gfA56t_Lgv5-7" target="ExoMNe3t0gfA56t_Lgv5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-7" value="基础设施层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="152" y="321" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-15" value="用户接口层：提供接口内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="154" width="171" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-16" value="应用服务层：实现具体业务逻辑" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="236" width="192" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-17" value="基础设施层：提供数据访问内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="315" width="192" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ExoMNe3t0gfA56t_Lgv5-18" value="公共层：提供通用模块" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="403" width="192" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
