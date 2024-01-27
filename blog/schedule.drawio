@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-27T08:55:47.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="H7NeBaIT3RUE9JJf6RW6" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-27T09:01:24.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="uP9ztu09bjK4EElgdYXX" version="22.1.18" type="github">
   <diagram name="第 1 页" id="Cbjm2723TIX3uI8G1TU3">
-    <mxGraphModel dx="1434" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500000" pageHeight="400000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -93,6 +93,48 @@
         </mxCell>
         <mxCell id="OXMtyyxUVlepq9rhhOlZ-28" value="调度器：定时定频率地执行 JobDeatil信息，通过它可以将JobDetail 和 trigger 绑定在一起" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="289" y="248" width="260" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-29" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=8;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="128" width="43" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-30" value="&amp;lt;server&amp;gt;&lt;br&gt;Quartz节点2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1293" y="189" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-31" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=8;" vertex="1" parent="1">
+          <mxGeometry x="1166" y="288" width="43" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-32" value="&amp;lt;server&amp;gt;&lt;br&gt;Quartz节点1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="349" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-33" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=8;" vertex="1" parent="1">
+          <mxGeometry x="1478" y="288" width="43" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-34" value="&amp;lt;server&amp;gt;&lt;br&gt;Quartz节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1461" y="349" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-35" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1309" y="300" width="65" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-36" value="" style="endArrow=none;html=1;rounded=0;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1338" y="291" as="sourcePoint" />
+            <mxPoint x="1338" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-37" value="" style="endArrow=none;html=1;rounded=0;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1299" y="326" as="sourcePoint" />
+            <mxPoint x="1216" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-39" value="" style="endArrow=none;html=1;rounded=0;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1467" y="324" as="sourcePoint" />
+            <mxPoint x="1384" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OXMtyyxUVlepq9rhhOlZ-40" value="&amp;lt;database&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1312.5" y="359" width="62" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
