@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-02-03T09:10:07.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="23.0.2" etag="d2U9ZEorHFk9kBk04ihH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-03T09:19:58.606Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="jokDiJPYyL1qSnc9MEcr" version="23.0.2" type="github">
   <diagram name="第 1 页" id="pFApzu6o8nNjfaXYn5jQ">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500000" pageHeight="400000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="349" y="195" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-2" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="334" y="517" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-3" value="服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="296" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-4" value="缓存" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="535" y="355.5" width="69" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="366" y="281" as="sourcePoint" />
+            <mxPoint x="364" y="358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="362" y="424.5" as="sourcePoint" />
+            <mxPoint x="362" y="509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="H5bM3ZNqDUV5iSnoYgvx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="390" as="sourcePoint" />
+            <mxPoint x="370" y="492.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="548" y="355" as="sourcePoint" />
+            <mxPoint x="387" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;entryX=0.391;entryY=0.964;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H5bM3ZNqDUV5iSnoYgvx-2" target="H5bM3ZNqDUV5iSnoYgvx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="372" y="434.5" as="sourcePoint" />
+            <mxPoint x="372" y="519" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-13" value="1、将请求变化频率不是很高的内容放到缓存中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="478" y="513" width="184" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H5bM3ZNqDUV5iSnoYgvx-14" value="2、并发较高的情况下，直接查询缓存返回数据，不用去数据库查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="493" y="284" width="184" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
