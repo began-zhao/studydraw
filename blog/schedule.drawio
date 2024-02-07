@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T06:19:49.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="TCc_DyUDxV_MvlGDacxP" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T06:31:42.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="824wthUmrFx-g_sjkb08" version="22.1.21" type="github">
   <diagram name="第 1 页" id="Cbjm2723TIX3uI8G1TU3">
     <mxGraphModel dx="956" dy="518" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500000" pageHeight="400000" math="0" shadow="0">
       <root>
@@ -609,6 +609,9 @@
               <mxPoint x="5923" y="70" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jXmUedsYhIrKHal5Yq8s-114" value="every frequency tick&lt;br&gt;+&lt;br&gt;input data is available" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="5965" y="89" width="128" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
