@@ -67,3 +67,4 @@
     - [责任链模式](https://mp.weixin.qq.com/s?__biz=Mzg3NTcyNzI5Mg==&mid=2247483781&idx=1&sn=c774c32c9c47fd245de1f9bdf0a0bddb&chksm=cf3c5156f84bd84019534353cbc57a9790ec1fb2d5f905566a52d6a5e97a57df3dca20dcfdfa#rd)
 - 结构型
     - 适配器模式
+    - 装饰器模式
