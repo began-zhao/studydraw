@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T11:48:12.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="kXUXaCSmAmtqNPprTAJq" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T12:24:58.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="J3FWVuHrCpbuwAwK7Z-R" version="24.3.0" type="github">
   <diagram name="第 1 页" id="Heq8uq07nb9Pgj2bKRC4">
     <mxGraphModel dx="1195" dy="630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500000" pageHeight="400000" background="none" math="0" shadow="0">
       <root>
@@ -277,6 +277,92 @@
         </mxCell>
         <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-72" value="[非首次设值]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2023" y="393" width="74" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-73" value="Follower" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2853" y="409" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-74" value="Candidate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="3151" y="409" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-75" value="Leader" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3452" y="409" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-76" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2668" y="437" as="sourcePoint" />
+            <mxPoint x="2852" y="439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-77" value="开始" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YVYQqiQ__WNKjIQ_n6Tc-76">
+          <mxGeometry x="-0.0818" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-78" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="YVYQqiQ__WNKjIQ_n6Tc-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2908" y="408" as="sourcePoint" />
+            <mxPoint x="3188" y="408" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3090" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-79" value="超时，开始选举" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2985" y="352.75" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-80" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YVYQqiQ__WNKjIQ_n6Tc-74" target="YVYQqiQ__WNKjIQ_n6Tc-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2918" y="418" as="sourcePoint" />
+            <mxPoint x="3182" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3096" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-81" value="发现当前Leader或新term" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YVYQqiQ__WNKjIQ_n6Tc-80">
+          <mxGeometry x="0.0391" y="-16" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-82" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3187" y="408" as="sourcePoint" />
+            <mxPoint x="3228" y="408" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3203" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-83" value="超时，开始选举" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3155" y="340" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-84" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.86;exitY=0.044;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.442;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YVYQqiQ__WNKjIQ_n6Tc-74" target="YVYQqiQ__WNKjIQ_n6Tc-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3197" y="418" as="sourcePoint" />
+            <mxPoint x="3238" y="418" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3373" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-85" value="收到多数投票" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YVYQqiQ__WNKjIQ_n6Tc-84">
+          <mxGeometry x="0.1794" y="-37" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-86" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="YVYQqiQ__WNKjIQ_n6Tc-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3498" y="470" as="sourcePoint" />
+            <mxPoint x="3515" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3024" y="628" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVYQqiQ__WNKjIQ_n6Tc-87" value="发现新term" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YVYQqiQ__WNKjIQ_n6Tc-86">
+          <mxGeometry x="0.1794" y="-37" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
